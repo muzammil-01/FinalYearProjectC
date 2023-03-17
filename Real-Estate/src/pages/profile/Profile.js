@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import RentInfo from "./RentInfo";
 import "./Profile.css"
 import { useNavigate } from 'react-router-dom'
 import Spinner from '../../components/spinner/Spinner'
@@ -122,6 +123,12 @@ function Profile() {
                     </ul>
                 </div>
             </div>
+
+        <button>Confirm rent</button>
+        <RentInfo></RentInfo>            
+        
+
+
         </>
     )
 }

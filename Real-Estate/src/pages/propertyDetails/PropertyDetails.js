@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import RentInfo from '../profile/RentInfo'
+import CreateDaoModal from '../../components/createDao/createDao'
 import { useParams } from 'react-router-dom'
 import './PropertyDetails.css'
 import CenterNavbar from '../../components/centerNavbar/CenterNavbar'
@@ -22,16 +24,7 @@ function PropertyDetails() {
     const { id } = useParams()
     console.log(id)
     var [data, setData] = useState()
-    // if (data == undefined) {
-    //     axios.get(`http://localhost:8000/api/property/${id}`)
-    //         .then((res) => {
-    //             setData(res.data)
-    //         })
-    // }
 
-    // console.log(data)
-    // const propertyDetails = useSelector(state => state.propertyDetails)
-    // const { loading, error, property } = propertyDetails
     const dispatch = useDispatch()
     useEffect(() => {
         dispatch(listPropertyDetails(id))
@@ -59,6 +52,8 @@ return (
           { userID === property?.listing?.user? <p className='mintbtn' onClick={() => {
                 setOpenRentModal(true);
             }}>Rent Your Property</p> : ""}
+            
+            <CreateDaoModal/>
 
            {id && <CenterNavbar id={id} />}
             <Footer />

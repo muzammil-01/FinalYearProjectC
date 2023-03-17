@@ -63,6 +63,39 @@ function AddProperty() {
     getEth();
   }, [Pricepertoken]);
 
+  const propertyDetails = useSelector(state => state.propertyDetails)
+    const { property } = propertyDetails
+    console.log(property);
+
+    const createproperty= async ()=>{
+      const accounts = await window.ethereum.request({
+          method: "eth_requestAccounts",
+        });
+        const address = accounts[0];
+       let provider = new ethers.providers.Web3Provider(window.ethereum);
+      let signer = provider.getSigner();
+      const Contract = new ethers.Contract(
+              ERC72FACTORYContractAddress,
+              ERC72FACTORYABI,
+              signer
+            );
+            const tx = await Contract.mint(`${property.Id}`,`${address}`,property?.TokenId);
+   // setTransactionHash(tx.hash);
+    const receipt = await tx.wait();
+    console.log(receipt);
+    const events = receipt.events.filter((event) => event.event === "DaoAdd");
+    console.log(events);
+    const propertyEvent = events[0];
+    console.log(propertyEvent);
+    const propertyargs = propertyEvent.args[0];
+    console.log(propertyargs);
+    }
+    useEffect(()=>{
+if(property){
+  createproperty();
+}
+    },[])
+
 
   const submitHandler = async (e) => {
     setUploading(true);
