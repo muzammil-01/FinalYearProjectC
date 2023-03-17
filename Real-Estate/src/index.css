@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+:root {
+  --primaryColor:  #122333;
+  --secondaryColor: #182b3c;
+  --btnColor: #2eac68;
+}
+body {
+  background-color: var(--primaryColor); ;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.error {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  margin: 15px auto;
+  width: 80%;
+  background-color: red;
+  padding: 5px;
+}
+
+.decBtnNotActive {
+  border: 0.2px solid white;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  border-radius: 20px;
+  background-color: rgb(244, 57, 57);
+  width: 50px;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.decBtnActive {
+  border: 0.2px solid white;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  border-radius: 20px;
+  background-color: rgb(244, 57, 57);
+  width: 50px;
+  cursor: not-allowed;
+}
+
+.incBtnNotActive {
+  border: 0.2px solid white;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  border-radius: 20px;
+  background-color: rgb(82, 212, 77);
+  width: 50px;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+.incBtnActive {
+  border: 0.2px solid white;
+  outline: none;
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  border-radius: 20px;
+  background-color: rgb(82, 212, 77);
+  width: 50px;
+  cursor: not-allowed;
+}

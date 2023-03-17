@@ -1,0 +1,141 @@
+/* ::placeholder{
+    color:white
+  }
+  .labels{
+    color: lightgray;
+    float: left;
+    margin-bottom: -21px;   
+    margin-top:12px;
+  }
+  .property-form {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 0.3px rgba(15, 84, 148, 0.781);
+    padding: 20px 40px;
+    background-color: #182b3c;
+    box-shadow: 10px 3px 38px 0px rgba(0, 0, 0, 0.3);
+  }
+  .top-heading {
+    text-align: center;
+    color: #109272;
+    font-family: "Merriweather", serif;
+  }
+
+  .signup-text {
+    text-align: center;
+  }
+  .signupbtn {
+    color: #109272;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .inputs{
+    color: white;
+   
+  }
+  .form-inputs{
+    align-items: center;
+  }
+  .form-styles{
+  max-width: 40%;
+  }
+  
+    @media (width < 900px){
+      .form-inputs{
+      flex-direction: column;
+      width: auto;
+    }
+    .form-styles{
+      max-width: 100%;
+    }
+  }
+  .tokenValue{
+    margin: 0px 20px 0px 20px;
+    }
+    .mintModalBackground {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 5000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .mintModalContainer {
+      width: 500px;
+      height: 430px;
+      border-radius: 10px;
+      background-color: lightgray;
+      display: flex;
+      flex-direction: column;
+      padding: 25px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      color: black;
+    }
+    
+    .mintModalContainer .mintModaltitle {
+      display: inline-block;
+      margin-bottom: 20px;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 1.5rem;
+      font-family:'Merriweather', serif;
+    }
+    
+    .mintModaltitleCloseBtn {
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    .mintModaltitleCloseBtn button {
+      background-color: transparent;
+      border: none;
+      font-size: 25px;
+      cursor: pointer;
+      color: red;
+      font-weight: bolder;
+    }
+    
+    .mintModalbody input {
+      width: 80px;
+    }
+    .mintModalbody{
+      text-align: center;
+    }
+    
+    .mintModalContainer .mintModalfooter {
+      flex: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .mintModalcalculateBtn {
+      background-color: crimson;
+      color: white;
+      border-radius:30px ;
+      font-size: 20px;
+      cursor: pointer;
+      width: 150px;
+      height: 45px;
+      margin: 10px;
+      border: none;
+    }
+    .noevent{
+      pointer-events: none;
+      background-color: crimson;
+      color: white;
+      border-radius:30px ;
+      font-size: 20px;
+      cursor: pointer;
+      width: 150px;
+      height: 45px;
+      margin: 10px;
+      border: none;
+    } */

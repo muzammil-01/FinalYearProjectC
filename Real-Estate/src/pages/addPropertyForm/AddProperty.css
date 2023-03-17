@@ -1,0 +1,128 @@
+::placeholder{
+  color:white
+}
+.labels{
+  color: lightgray;
+  float: left;
+  margin-bottom: -21px;   
+  margin-top:12px;
+}
+.property-form {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 0.3px rgba(15, 84, 148, 0.781);
+  padding: 20px 40px;
+  background-color: #182b3c;
+  box-shadow: 10px 3px 38px 0px rgba(0, 0, 0, 0.3);
+}
+.top-heading {
+  text-align: center;
+  color: #109272;
+  font-family: "Merriweather", serif;
+}
+.inputs {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 2px;
+  background-color: #21374a;
+  outline: none;
+}
+.signup-text {
+  text-align: center;
+}
+.signupbtn {
+  color: #109272;
+  text-decoration: none;
+  font-size: 18px;
+}
+.inputs{
+  color: white;
+ 
+}
+.form-inputs{
+  align-items: center;
+}
+.form-styles{
+max-width: 40%;
+}
+
+  @media (width < 900px){
+    .form-inputs{
+    flex-direction: column;
+    width: auto;
+  }
+  .form-styles{
+    max-width: 100%;
+  }
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+input[type="checkbox"] {
+   appearance:auto; 
+  display: block;
+}
