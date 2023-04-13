@@ -52,10 +52,11 @@ Creating a blockchain web 3 Fractional And Frictionless RealEstate Website. User
 # HomePage
 ![image](https://user-images.githubusercontent.com/92223697/185978096-5d91fcbd-cd34-4e62-ab5c-b1f66544ccd1.png)
 # Add Properties On Market
-![image](https://user-images.githubusercontent.com/92223697/185978418-f293278b-38ef-42e2-b728-0ae64b0fe519.png)
+![image](https://user-images.githubusercontent.com/92223697/231883038-5417a3f1-548f-402b-a8ee-b2649a7e08fc.png)
+
 
 # Marketplace
-![image](https://user-images.githubusercontent.com/92223697/185978630-49625fb6-2603-4cd0-a06c-911fcff2a0e4.png)
+![image](https://user-images.githubusercontent.com/92223697/231883281-4aac4932-2ebc-4cd5-8a4b-3272ebb6fa58.png)
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
