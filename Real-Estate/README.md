@@ -23,7 +23,7 @@ Creating a blockchain web 3 Fractional And Frictionless RealEstate Website. User
 ### We are decentralising whole property dealing with web3.0
 ### This marketplace is able to fractionalise A property into shares that can be seperately Sold
 # Web Flow
-(https://user-images.githubusercontent.com/92223697/183254196-fb5e20f0-099d-4408-9902-4abff16a5e6c.png)
+![image](https://user-images.githubusercontent.com/92223697/231858255-5fddbc2e-d5e5-41a4-9db1-9e3e693b88ba.png)
 
 
 # Tokenize And Fractionlise Real-Estate Using Blockchain
